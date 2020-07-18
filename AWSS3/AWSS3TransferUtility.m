@@ -19,9 +19,7 @@
 #import "AWSS3TransferUtilityDatabaseHelper.h"
 #import "AWSS3TransferUtilityTasks.h"
 
-#import <AWSCore/AWSFMDB.h>
-#import <AWSCore/AWSSynchronizedMutableDictionary.h>
-#import <AWSCore/AWSXMLDictionary.h>
+@import AWSCore;
 
 #include <stdio.h>
 

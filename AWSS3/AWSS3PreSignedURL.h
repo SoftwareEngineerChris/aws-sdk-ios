@@ -13,7 +13,7 @@
 // permissions and limitations under the License.
 //
 
-#import <AWSCore/AWSCore.h>
+#import "AWSS3.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -15,11 +15,7 @@
 
 #import "AWSS3.h"
 #import "AWSS3TransferManager.h"
-#import <AWSCore/AWSBolts.h>
-#import <AWSCore/AWSCategory.h>
-#import <AWSCore/AWSCocoaLumberjack.h>
-#import <AWSCore/AWSSynchronizedMutableDictionary.h>
-#import <AWSCore/AWSTMCache.h>
+@import AWSCore;
 
 static NSString *const AWSInfoS3TransferManager = @"S3TransferManager";
 

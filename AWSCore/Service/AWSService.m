@@ -259,6 +259,8 @@ static NSString *const AWSRegionNameMESouth1 = @"me-south-1";
 static NSString *const AWSRegionNameAFSouth1 = @"af-south-1";
 static NSString *const AWSRegionNameEUSouth1 = @"eu-south-1";
 
+static NSString *const DORegionNameAms3 = @"ams3";
+
 static NSString *const AWSServiceNameAPIGateway = @"execute-api";
 static NSString *const AWSServiceNameAutoScaling = @"autoscaling";
 static NSString *const AWSServiceNameCloudWatch = @"monitoring";
@@ -479,6 +481,8 @@ static NSString *const AWSServiceNameTranslate = @"translate";
             return AWSRegionNameAFSouth1;
         case AWSRegionEUSouth1:
             return AWSRegionNameEUSouth1;
+        case DORegionAMS3:
+            return DORegionNameAms3;
         default:
             return nil;
     }

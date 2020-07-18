@@ -14,8 +14,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AWSCore/AWSNetworking.h>
-#import <AWSCore/AWSModel.h>
+@import AWSCore;
 
 NS_ASSUME_NONNULL_BEGIN
 

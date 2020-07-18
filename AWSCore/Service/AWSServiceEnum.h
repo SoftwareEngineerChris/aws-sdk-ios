@@ -123,6 +123,8 @@ typedef NS_ENUM(NSInteger, AWSRegionType) {
      *  Europe (Milan)
      */
     AWSRegionEUSouth1 NS_SWIFT_NAME(EUSouth1),
+    
+    DORegionAMS3 NS_SWIFT_NAME(DOAMS3),
 };
 
 /**
